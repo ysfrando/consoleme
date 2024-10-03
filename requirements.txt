@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements.txt requirements.in
 #
-aiohttp==3.8.1
+aiohttp==3.10.2
     # via aiozipkin
 aiosignal==1.2.0
     # via aiohttp
@@ -34,7 +34,7 @@ beautifulsoup4==4.11.1
     # via policy-sentry
 billiard==3.6.4.0
     # via celery
-black==22.6.0
+black==24.3.0
     # via datamodel-code-generator
 bleach==5.0.1
     # via -r requirements.in
@@ -56,7 +56,7 @@ cchardet==2.1.7
     # via -r requirements.in
 celery==5.2.7
     # via -r requirements.in
-certifi==2022.6.15
+certifi==2024.7.4
     # via
     #   elasticsearch
     #   requests
@@ -91,7 +91,7 @@ cloudaux==1.9.6
     # via -r requirements.in
 contextlib2==21.6.0
     # via schema
-cryptography==37.0.4
+cryptography==43.0.1
     # via -r requirements.in
 datamodel-code-generator==0.13.0
     # via -r requirements.in
@@ -135,7 +135,7 @@ genson==1.2.2
     # via datamodel-code-generator
 gitdb==4.0.9
     # via gitpython
-gitpython==3.1.27
+gitpython==3.1.41
     # via -r requirements.in
 google-api-core==2.8.2
     # via
@@ -165,7 +165,7 @@ google-resumable-media==2.3.3
     # via google-cloud-storage
 googleapis-common-protos==1.56.4
     # via google-api-core
-gunicorn==20.1.0
+gunicorn==22.0.0
     # via -r requirements.in
 hiredis==2.0.0
     # via -r requirements.in
@@ -173,7 +173,7 @@ httplib2==0.20.4
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==3.3
+idna==3.7
     # via
     #   -r requirements.in
     #   email-validator
@@ -192,7 +192,7 @@ isort==5.10.1
     # via
     #   datamodel-code-generator
     #   pylint
-jinja2==3.1.2
+jinja2==3.1.4
     # via datamodel-code-generator
 jmespath==1.0.1
     # via
@@ -200,7 +200,7 @@ jmespath==1.0.1
     #   boto3
     #   botocore
     #   parliament
-joblib==1.1.0
+joblib==1.1.1
     # via cloudaux
 json-cfg==0.4.2
     # via parliament
@@ -242,7 +242,7 @@ numpy==1.23.1
     # via
     #   -r requirements.in
     #   pandas
-oauthlib==3.2.0
+oauthlib==3.2.2
     # via
     #   atlassian-python-api
     #   requests-oauthlib
@@ -286,7 +286,7 @@ prompt-toolkit==3.0.30
     # via
     #   click-repl
     #   questionary
-protobuf==4.21.2
+protobuf==4.21.6
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -303,7 +303,7 @@ pycparser==2.21
     # via cffi
 pycurl==7.45.1
     # via -r requirements.in
-pydantic[email]==1.9.1
+pydantic==1.10.13
     # via
     #   -r requirements.in
     #   datamodel-code-generator
@@ -349,9 +349,9 @@ pyyaml==6.0
     #   policy-sentry
 questionary==1.10.0
     # via -r requirements.in
-redis==4.3.4
+redis==4.3.6
     # via -r requirements.in
-requests==2.28.1
+requests==2.32.2
     # via
     #   -r requirements.in
     #   atlassian-python-api
@@ -426,7 +426,7 @@ tomli==2.0.1
     #   pylint
 tomlkit==0.11.1
     # via pylint
-tornado==6.2
+tornado==6.4.1
     # via -r requirements.in
 typed-ast==1.5.4
     # via datamodel-code-generator
@@ -436,7 +436,7 @@ ujson==5.4.0
     # via -r requirements.in
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==1.26.10
+urllib3==1.26.19
     # via
     #   botocore
     #   elasticsearch
@@ -468,3 +468,5 @@ yarl==1.7.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
