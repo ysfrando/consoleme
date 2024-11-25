@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements.txt requirements.in
 #
-aiohttp==3.8.1
+aiohttp==3.10.11
     # via aiozipkin
 aiosignal==1.2.0
     # via aiohttp
@@ -426,7 +426,7 @@ tomli==2.0.1
     #   pylint
 tomlkit==0.11.1
     # via pylint
-tornado==6.2
+tornado==6.4.2
     # via -r requirements.in
 typed-ast==1.5.4
     # via datamodel-code-generator
