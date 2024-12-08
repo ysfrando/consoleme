@@ -878,7 +878,7 @@ tomlkit==0.11.1
     #   -c requirements.txt
     #   -r requirements.txt
     #   pylint
-tornado==6.2
+tornado==6.4.2
     # via
     #   -c requirements.txt
     #   -r requirements-test.in
