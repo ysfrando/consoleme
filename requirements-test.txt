@@ -388,7 +388,7 @@ isort==5.10.1
     #   -r requirements.txt
     #   datamodel-code-generator
     #   pylint
-jinja2==3.1.2
+jinja2==3.1.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
