@@ -165,7 +165,7 @@ google-resumable-media==2.3.3
     # via google-cloud-storage
 googleapis-common-protos==1.56.4
     # via google-api-core
-gunicorn==20.1.0
+gunicorn==23.0.0
     # via -r requirements.in
 hiredis==2.0.0
     # via -r requirements.in
