@@ -436,7 +436,7 @@ ujson==5.4.0
     # via -r requirements.in
 uritemplate==4.1.1
     # via google-api-python-client
-urllib3==1.26.10
+urllib3==2.6.0
     # via
     #   botocore
     #   elasticsearch
