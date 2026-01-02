@@ -93,7 +93,7 @@ contextlib2==21.6.0
     # via schema
 cryptography==37.0.4
     # via -r requirements.in
-datamodel-code-generator==0.13.0
+datamodel-code-generator==0.31.2
     # via -r requirements.in
 decorator==5.1.1
     # via
