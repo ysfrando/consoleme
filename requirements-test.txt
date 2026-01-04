@@ -187,7 +187,7 @@ cryptography==37.0.4
     #   -c requirements.txt
     #   -r requirements.txt
     #   moto
-datamodel-code-generator==0.13.0
+datamodel-code-generator==0.31.2
     # via
     #   -c requirements.txt
     #   -r requirements.txt
