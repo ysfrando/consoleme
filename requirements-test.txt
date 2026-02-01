@@ -582,7 +582,7 @@ prompt-toolkit==3.0.30
     #   -r requirements.txt
     #   click-repl
     #   questionary
-protobuf==4.21.2
+protobuf==6.33.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
