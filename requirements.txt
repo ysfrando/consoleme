@@ -286,7 +286,7 @@ prompt-toolkit==3.0.30
     # via
     #   click-repl
     #   questionary
-protobuf==4.21.2
+protobuf==5.29.6
     # via
     #   google-api-core
     #   googleapis-common-protos
