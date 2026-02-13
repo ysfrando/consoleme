@@ -91,7 +91,7 @@ cloudaux==1.9.6
     # via -r requirements.in
 contextlib2==21.6.0
     # via schema
-cryptography==37.0.4
+cryptography==46.0.5
     # via -r requirements.in
 datamodel-code-generator==0.13.0
     # via -r requirements.in
