@@ -182,7 +182,7 @@ coverage[toml]==6.4.2
     # via
     #   -r requirements-test.in
     #   pytest-cov
-cryptography==37.0.4
+cryptography==46.0.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
